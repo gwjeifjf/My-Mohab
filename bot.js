@@ -8,7 +8,7 @@ const prefix = '';
 
 client.on('ready', () => {
 
- client.user.setGame(`-_- حقود من يوم ماتولدت `,'https://www.twitch.tv/MeeRcY')
+ client.user.setGame(`Comng Soon أنتظرونا قريبا !`,'https://www.twitch.tv/MeeRcY')
  
  console.log(`Logged in as [ Pharaohs]`);
 
