@@ -8,7 +8,7 @@ const prefix = '';
 
 client.on('ready', () => {
 
- client.user.setGame(ّ`لتحقيق العدالة اضغط رقم = 1`,'https://www.twitch.tv/MeeRcY')
+ client.user.setGame(`لتحقيق العدالة اضغط رقم = 1`,'https://www.twitch.tv/MeeRcY')
  
  console.log(`Logged in as [ Pharaohs]`);
 
