@@ -8,7 +8,7 @@ const prefix = '';
 
 client.on('ready', () => {
 
- client.user.setGame(`يوم الجمعة انشالله`,'https://www.twitch.tv/MeeRcY')
+ client.user.setGame(`فديت الاخو الي يعطيني كريديت :heart: `,'https://www.twitch.tv/MeeRcY')
  
  console.log(`Logged in as [ Pharaohs]`);
 
@@ -31,8 +31,8 @@ client.on('ready', () => {
 
 
          client.on('message', message => {
-            if (message.content === '') {
-              message.channel.send('');
+            if (message.content === 'اتانلتلتا') {
+              message.channel.send('لتنلن');
          
 
             }
