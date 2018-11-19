@@ -24,26 +24,20 @@ client.on('ready', () => {
 
 
 
-
-
-
-
-
-
-
-js const adminprefix = "#";
-const devs = ['514114378384015372'];
+const adminprefix = "#";
+const devs = ['195088897234042880'];
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
     if (!devs.includes(message.author.id)) return;
-if (message.content.startsWith(adminprefix + 'st')) {
+if (message.content.startsWith(adminprefix + 'ستريمنق')) {
   client.user.setGame(argresult, "https://www.twitch.tv/idk")
     message.channel.sendMessage(`**:white_check_mark: : ${argresult}**`)
 }
 });
-    
 
-     
+
+
+
 
 
 
