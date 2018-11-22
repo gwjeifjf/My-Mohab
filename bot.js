@@ -43,8 +43,7 @@ client.on('ready', () => {
 
 
 
-const Discord = require("discord.js");
-const client = new Discord.Client();
+
 client.on('ready',async () => {
    let GUILDID = '469026947372941333'; //
   let CHANNELID = '469026947372941337'; //
