@@ -19,6 +19,7 @@ client.on('ready', () => {
 
 
 
+
 const developers = ["514114378384015372"]
 const adminprefix = "";
 client.on('message', message => {
