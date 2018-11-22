@@ -521,7 +521,6 @@ LOka.login("خرا توكنبوت احذرك لا تستخدم البوت في �
 
 
 
-const Discord = require("discord.js");
 const LOka = new Discord.Client();
 console.log('By يسيسيش');
 LOka.on('ready', () => {
