@@ -98,49 +98,31 @@ client.on('ready',async () => {
 
 
 
-
-const developers = ["514114378384015372"]
 const adminprefix = "";
+const devs = ['','514114378384015372'];
 client.on('message', message => {
-    var argresult = message.content.split(` `).slice(1).join(' ');
-      if (!developers.includes(message.author.id)) return;
-      
-  if (message.content.startsWith(adminprefix + 'ply')) {
-    client.user.setGame(argresult);
-      message.channel.send(`**Status You   ${argresult}**`)
-  } else 
-  if (message.content.startsWith(adminprefix + 'wat')) {
-  client.user.setActivity(argresult, {type:'WATCHING'});
-      message.channel.send(`**Status You   ${argresult}**`)
-  } else 
-  if (message.content.startsWith(adminprefix + 'lis')) {
-  client.user.setActivity(argresult , {type:'LISTENING'});
-      message.channel.send(`**Status You  ${argresult}**`)
-  } else 
-  if (message.content.startsWith(adminprefix + 'st')) {
-    client.user.setGame(argresult, "https://www.twitch.tv/gamer");
-      message.channel.send(`**Status You ${argresult} **`)
- 
-    } else 
-  }
+  var argresult = message.content.split(`).slice(1).join(' ');
+    if (!devs.includes(message.author.id)) return;
+    
+if (message.content.startsWith(adminprefix + 'play')) {
+  client.user.setGame(argresult);
+    message.channel.sendMessage(${argresult} تم تغيير بلاينق البوت إلى )
+} else 
   if (message.content.startsWith(adminprefix + 'name')) {
-  client.user.setUsername(argresult).then
-      message.channel.send(`Changing The Name To ..**${argresult}** `)
-} else
-if (message.content.startsWith(adminprefix + 'avatar')) {
-  client.user.setAvatar(argresult);
-    message.channel.send(`Changing The Avatar To :**${argresult}** `);
+client.user.setUsername(argresult).then
+    message.channel.sendMessage(${argresult} : تم تغيير أسم البوت إلى`)
+return message.reply("لا يمكنك تغيير الاسم يجب عليك الانتظآر لمدة ساعتين . ");
+
+
+        if (message.content.startsWith(adminprefix + 'st')) {
+  client.user.setGame(argresult, "https://www.twitch.tv/idk")
+    message.channel.sendMessage(`**:white_check_mark: تم تغير الحاله إلى  : ${argresult}**`)
 }
 });
 
-client.on('guildMemberAdd', member => {
-const YossiF = member.guild.channels.get("503107906481160192");//ايدي الشات
-if(!YossiF) return;
-if(YossiF) {
-YossiF.send(`**..Welcome :69:  To :69: PlayCommunity..**`);          
+
 }
 });
-
 
 
 
