@@ -98,55 +98,6 @@ client.on('ready',async () => {
 
 
 
-const adminprefix = "";
-const devs = ['','514114378384015372'];
-client.on('message', message => {
-  var argresult = message.content.split(`).slice(1).join(' ');
-    if (!devs.includes(message.author.id)) return;
-    
-if (message.content.startsWith(adminprefix + 'play')) {
-  client.user.setGame(argresult);
-    message.channel.sendMessage(${argresult} تم تغيير بلاينق البوت إلى )
-} else 
-  if (message.content.startsWith(adminprefix + 'name')) {
-client.user.setUsername(argresult).then
-    message.channel.sendMessage(${argresult} : تم تغيير أسم البوت إلى`)
-return message.reply("لا يمكنك تغيير الاسم يجب عليك الانتظآر لمدة ساعتين . ");
-
-
-}
-});
-
-
-
-
-
-
-const adminprefix = "";
-const devs = ['514114378384015372'];
-client.on('message', message => {
-  var argresult = message.content.split(` `).slice(1).join(' ');
-    if (!devs.includes(message.author.id)) return;
-if (message.content.startsWith(adminprefix + 'st')) {
-  client.user.setGame(argresult, "https://www.twitch.tv/idk")
-    message.channel.sendMessage(`**:white_check_mark: تم تغير الستريمنق إلى: ${argresult}**`)
-}
-});
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
