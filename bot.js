@@ -521,7 +521,7 @@ LOka.login("خرا توكنبوت احذرك لا تستخدم البوت في �
 
 
 
-const LOka = new Discord.Client();
+
 console.log('By يسيسيش');
 LOka.on('ready', () => {
   console.log(`Logged in as ${LOka.user.tag} !`);
