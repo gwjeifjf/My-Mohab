@@ -37,23 +37,7 @@ client.on('ready', () => {
 
 
 
-const Discord = require("discord.js");
-const LOka = new Discord.Client();
-console.log('By يسيسيش');
-LOka.on('ready', () => {
-  console.log(`Logged in as ${LOka.user.tag} !`);
- 
-});
-LOka.on('ready',  () => {
-console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
-console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
-console.log('      ~            ~  By : بشسب ~           ~    ');
-console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
-console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
-console.log(`Logged in as  * [ "  شيشي " ] servers! [ " ${LOka.guilds.size} " ] Users! [ " ${LOka.users.size} " ]`);
- 
-       
-   
+
  
 });
 var prefix = "-"
