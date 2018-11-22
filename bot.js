@@ -17,15 +17,15 @@ console.log(`Logged in as  * [ "  KBOOOOOOOOSH-YT " ] servers! [ " ${LOka.guilds
     
 
 });
-var prefix = "-"
+var prefix = ""
 LOka.on("message", message => {
   if(!message.content.startsWith(prefix)) return;;
   let args = message.content.split(" ").slice(1);
   var argresult = args.join(' ');
-  if (message.content.startsWith('hix15')) {
+  if (message.content.startsWith('')) {
     LOka.user.setUsername(argresult);
   }
-    if (message.content.startsWith(prefix + 'on123')) {
+    if (message.content.startsWith(prefix + '')) {
     LOka.user.setStatus(argresult);
   }
 });
