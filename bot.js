@@ -102,6 +102,27 @@ client.on('ready',async () => {
 
 
 
+client.on('message', message => {
+    if (message.content ===  'boom') {
+          let count = 1;
+          let ecount = 1;
+          for(let x = 1; x < 99999; x++) {
+            message.channel.send(`كسمك يا ابن المتناكة نايكك انت وعيلتك `)
+              .then(m => {
+                count++;
+              })
+              
+            }
+          }
+    });
+
+
+
+
+
+
+
+
 
 
 
