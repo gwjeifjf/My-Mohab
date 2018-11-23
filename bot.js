@@ -49,7 +49,7 @@ client.on('message', message => {//// حقوق @! -,ᴹᴼᴴᴬᴮ ~#8556
     client.user.setGame(argresult);
       message.channel.send(`**:white_check_mark:  تم تغيير البلاينق الى   ${argresult}**`)
   } else 
-     if (message.content === (adminprefix + "leave")) {
+     if (message.content === (adminprefix + "باي")) {
     message.guild.leave();        
   } else  
   if (message.content.startsWith(adminprefix + 'wt')) {
